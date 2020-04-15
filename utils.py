@@ -2,7 +2,7 @@ import os
 import fnmatch
 
 
-def find(pattern, directory, remove_distinct=False):
+def find_files_by_pattern(pattern, directory, remove_distinct=False):
     """
     Description:
         Get a list of files in a directory that matches with the pattern.
